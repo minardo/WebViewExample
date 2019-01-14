@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         superProgressBar.setMax(100);
 
-        superWebView.loadUrl("https://www.google.com");
+        superWebView.loadUrl("http://192.168.8.101:8069/web/login");
         superWebView.getSettings().setJavaScriptEnabled(true);
         superWebView.setWebViewClient(new WebViewClient() {
             @Override
